@@ -34,6 +34,7 @@
             this.label = new Guna.UI.WinForms.GunaLabel();
             this.labelGiaSach = new Guna.UI.WinForms.GunaLabel();
             this.picAnhSach = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelBackground.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAnhSach)).BeginInit();
             this.SuspendLayout();
@@ -41,6 +42,7 @@
             // panelBackground
             // 
             this.panelBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelBackground.Controls.Add(this.label1);
             this.panelBackground.Controls.Add(this.labelSoluongdaban);
             this.panelBackground.Controls.Add(this.richTextBoxTenSach);
             this.panelBackground.Controls.Add(this.label);
@@ -112,6 +114,15 @@
             this.picAnhSach.TabStop = false;
             this.picAnhSach.Click += new System.EventHandler(this.PicAnhSach_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(58, 230);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "label1";
+            // 
             // Sach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -134,5 +145,6 @@
         public System.Windows.Forms.PictureBox picAnhSach;
         private System.Windows.Forms.RichTextBox richTextBoxTenSach;
         private Guna.UI.WinForms.GunaLabel labelSoluongdaban;
+        private System.Windows.Forms.Label label1;
     }
 }
