@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnTimKiemSach = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.btnLapHoaDon = new Guna.UI.WinForms.GunaButton();
             this.btnLapPhieuNhap = new Guna.UI.WinForms.GunaButton();
             this.label1 = new System.Windows.Forms.Label();
@@ -68,30 +67,6 @@
             this.btnTimKiemSach.Text = "Tìm kiếm sách";
             this.btnTimKiemSach.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnTimKiemSach.Click += new System.EventHandler(this.BtnTimKiemSach_Click);
-            // 
-            // gunaButton1
-            // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("UTM Nyala", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaButton1.Image = null;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(0, 295);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Size = new System.Drawing.Size(300, 80);
-            this.gunaButton1.TabIndex = 1;
-            this.gunaButton1.Text = "Lập phiếu...";
-            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnLapHoaDon
             // 
@@ -225,7 +200,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLapPhieuNhap);
             this.Controls.Add(this.btnLapHoaDon);
-            this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.btnTimKiemSach);
             this.Name = "Interface";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -240,7 +214,6 @@
         #endregion
 
         private Guna.UI.WinForms.GunaButton btnTimKiemSach;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
         private Guna.UI.WinForms.GunaButton btnLapHoaDon;
         private Guna.UI.WinForms.GunaButton btnLapPhieuNhap;
         private System.Windows.Forms.Label label1;
